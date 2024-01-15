@@ -5,6 +5,7 @@ Snake-like game developed entirely in pure JavaScript.
 
 Online: 
 - Access the following link: https://matthewovens.github.io/SnakeMan/
+  
 Locally:
 - Clone the repository
 - Run a LiveServer on the root directory
