@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script defer type="module" src="./View/StartMenuClass.js"></script>
+    <title>SnacMan</title>
+</head>
+<body>
+    <!-- SOUNDS
+    <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autoplay="false" ></audio>
+    <audio id="audio" src="http://www.soundjay.com/button/beep-07.wav" autoplay="false" ></audio> -->
+
+    <h1 class="title">SNAC - MAN</h1>
+
+    <div class="grid" id="grid">
+    </div>
+    <p class="scoreCont">SCORE<p class="score" id="score">0</p> </p>
+
+    <div class="invisibleGrid" id="invisibleGrid">
+    </div>
+
+    <div class="enterDiffContainer" id="popupClass"> 
+
+        <h1 class="title">SNAC - MAN</h1>
+
+        <div class="enterDiffContent" id="enterDiffContent">
+            <p class="text">Scegli difficoltà</p>
+
+            <button id="easy" value="easy">Easy</button>
+            <button id="normal"value="normal">Normal</button>
+            <button id="hard" value="hard">Hard</button><br>
+            <button id="startGame" class="buttonSelected">START GAME</button>
+
+        </div>
+
+    </div>
+ 
+    <div class="gameOverContainer" id="finalPopup"> 
+        <div class="gameOverContent">
+            <p class="finalText" id="finalText">GAME OVER</p>
+            
+            <button class="restartButton" id="restartButton">RESTART</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
